@@ -39,7 +39,7 @@ Cette requête permet de compter le nombre total d’événements (vues, ajouts 
 ***Revenu total généré par catégorie***
 
 Cette requête additionne les prix des produits achetés (event_type = 'purchase') en les regroupant par catégorie de produit (category_code). Elle permet de savoir quelles catégories de produits génèrent le plus de chiffre d’affaires.
-pour voir d'autres analyses vous pouvez telechargez le fichier **ecommerce(sql)**
+pour voir d'autres analyses vous pouvez telechargez le fichier **ecommerce-sql**
 
 
 **🔌 Connexion Power BI ↔ PostgreSQL**
