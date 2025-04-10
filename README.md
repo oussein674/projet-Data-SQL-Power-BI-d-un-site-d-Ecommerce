@@ -59,7 +59,7 @@ Enfin j'ai Chargé les données de la table ecommerce_events pour Crée mes visu
 
 
 **📊 Présentation du tableau de bord Power BI**
-![Aperçu du dashboard](Dashbor-ecommerce.PNG)
+![Aperçu du dashboard](Dashbord-ecommerce.PNG)
 
 Ce tableau de bord présente une analyse complète de l'activité e-commerce à partir de données utilisateurs, événements de navigation et d'achat, regroupés via PostgreSQL et visualisés dans Power BI.
 
