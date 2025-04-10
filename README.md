@@ -21,6 +21,7 @@ Analyser la répartition géographique des revenus
 Suivre l’évolution de la conversion des utilisateurs
 
 **Requêtes SQL utilisées pour l’analyse**
+
 Pour mieux comprendre les comportements d’achat et de navigation des utilisateurs sur la plateforme e-commerce, plusieurs requêtes SQL ont été mises en place. Voici ce qu’elles permettent d’analyser
 
 ***Nombre d’événements par jour***
@@ -46,7 +47,7 @@ Base de données : ecommerce
 Enfin j'ai Chargé les données de la table ecommerce_events pour Crée mes visualisations 📊
 
 **📊 Présentation du tableau de bord Power BI**
-![Aperçu du dashboard](ecommerce-dashbord.png)
+![Aperçu du dashboard](ecommerce(sql).png)
 
 Ce tableau de bord présente une analyse complète de l'activité e-commerce à partir de données utilisateurs, événements de navigation et d'achat, regroupés via PostgreSQL et visualisés dans Power BI.
 
@@ -72,18 +73,19 @@ Ce tableau de bord présente une analyse complète de l'activité e-commerce à 
 
 ***📈 Visualisations détaillées***
 
-📊 Navigateur le plus utilisé pour les achats
-Un histogramme comparant les navigateurs web (Chrome, Edge, Firefox, Safari) les plus utilisés lors des achats.
 
+1. Navigateur le plus utilisé pour les achats
+Un histogramme comparant les navigateurs web (Chrome, Edge, Firefox, Safari) les plus utilisés lors des achats.
 ✅ Insight : tous les navigateurs ont une contribution similaire, ce qui montre une distribution homogène.
 
-📊 Marque de produit la plus achetée
+2. Marque de produit la plus achetée
 Un graphique par marque (BrandA, BrandB, BrandC) indiquant la somme des ventes.
 ✅ Insight : les trois marques performent de manière assez équitable.
 
-🥧 Revenu total par ville
+3. Revenu total par ville
 Un diagramme circulaire montrant les villes ayant généré le plus de revenus (Paris, Lyon, Marseille, Nice, Toulouse).
 ✅ Insight : la répartition est équilibrée, chaque ville représente environ 20 % du chiffre d’affaires.
+
 
 
 ***💡 Ce que ce dashboard permet de faire***
@@ -97,6 +99,7 @@ Comparer les marques populaires
 Analyser la répartition géographique des revenus
 
 Suivre l’évolution de la conversion des utilisateurs
+
 
 **🧰 Technologies utilisées**
 
